@@ -29,7 +29,7 @@ const demoImage =
                 option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
               }
             >
-                        <Option value="Cryptocurrency">Cryptocurrency</Option>
+                        <Option value="Cryptocurrency">Cryptocurrencye</Option>
                         {data?.data?.coins?.map((currency) => (
                             <Option value={currency.name}>{currency.name}</Option>
                         ))}

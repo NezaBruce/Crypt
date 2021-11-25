@@ -4,7 +4,9 @@ import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOut
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
+// import icon from '../images/cryptocurrency.png'
 const Navbar = () => {
+
     const [activeMenu, setActiveMenu] = useState(true);
     const [screenSize, setScreensize] = useState(undefined);
     useEffect(() => {
@@ -24,7 +26,7 @@ const Navbar = () => {
       <>
         <div className="nav-container">
           <div className="logo-container">
-            {/* <Avatar></Avatar> */}
+            {/* <Avatar src={icon} size="large"></Avatar> */}
             <Typography.Title level={2} className="logo">
               <Link to="/">Cryptocurrency</Link>
             </Typography.Title>

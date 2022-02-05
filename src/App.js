@@ -26,6 +26,11 @@ function App() {
               <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
               <Route exact path="/news" element={<News/>}/>
               <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
+              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
               <Route exact path="/news" element={<News/>}/>
 
             </Routes>

@@ -102,6 +102,8 @@ const CryptoDetails = () => {
               <p>
                 An overview showing the statistics of {cryptoDetails.name}, such
                 as the base and quote currency, the rank, and trading volume.
+                An overview showign the statistics of {cryptoDetails.name}, such 
+                aast the base and quto currency, 
               </p>
             </Col>
             {genericstats.map(({ icon, title, value }) => (

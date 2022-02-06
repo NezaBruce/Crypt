@@ -5,6 +5,7 @@ import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './C
 import './App.css';
 // import { Typography } from '@mui/material';
 function App() {
+  // what
   return (
     <div className="App">
       <div className="navbar">

@@ -4,15 +4,15 @@ import './dashboard.css';
 const Dashboard = () => {
     return (
       <div className="dashboard">
-        <header className="dash_header">
-                header
-        </header>
-        <div className="dash_sidenav">
+        <div className="dash_sidenav LeftMenu">
                 leftmenu
         </div>
         <div className="dash_main">
-            why     main
+            why main
         </div>
+        <header className="dash_rightnav">
+                rightmenu
+        </header>
         {/* <div className="dash_footer">hi there</div> */}
       </div>
     );

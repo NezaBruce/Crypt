@@ -7,6 +7,7 @@
     column-count: 2;
     grid-template-areas: 'dash_header','dash_leftmenu','dash_main';
     height: 100vh;
+    background-color: #171728;
 }
 .dash_footer{
     color: red;
@@ -32,7 +33,7 @@
     height: 48.125rem;
      left: 0%;
     top: 0%;        
-    /* background-color: #2c2c2c;         */
+    background-color: #2c2c2c;        
     border-radius: 20px 0px 0px 20px; 
 }
 .item{

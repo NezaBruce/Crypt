@@ -5,7 +5,7 @@ import { Collapse, Row, Col, Typography, Avatar } from 'antd';
 
 import {  useGetExchangesQuery } from '../Services/cryptoApi';
 import Loader from "./Loader";
-
+//what
 const {Text}=Typography;
 const { Panel } = Collapse;
 const Exchanges = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './dashboard.css';
-
+import Card from './card.js';
 const Dashboard = () => {
     return (
       <div className="dashboard">
@@ -8,7 +8,8 @@ const Dashboard = () => {
                 leftmenu
         </div>
         <div className="dash_main">
-            why main
+                why main
+                <Card/>
         </div>
         <header className="dash_rightnav">
                 rightmenu

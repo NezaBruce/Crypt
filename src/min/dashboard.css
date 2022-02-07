@@ -1,31 +1,24 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div{
-        /* background-color: #171728; */
-
+.dashboard{
+    display: grid;
+    /* grid-template-rows:50px 1fr 50px; */
+    grid-template-columns:150px 1fr 350px;
+    column-count: 2;
+    grid-template-areas: 'dash_header','dash_leftmenu','dash_main';
+    height: 100vh;
 }
+.dash_footer{
+    color: red;
+}
+
+
+
+
+
+
+
+
 /* .dashboard-container{
     background-color: #171728;
     width: 100%;
@@ -37,9 +30,7 @@ div{
     position: absolute;
     width:6.25rem;
     height: 48.125rem;
-    /* blend:pass */
      left: 0%;
-    /* right: 0%; */
     top: 0%;        
     /* background-color: #2c2c2c;         */
     border-radius: 20px 0px 0px 20px; 
@@ -54,15 +45,5 @@ div{
     top: 0%; 
     bottom: 0%;
     /* background: #212121; */
-    background: red;
-}
-/* .Ditem{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    text-align: center;
-} */
-.letdas{
-    display: flex;
-    flex-direction: row;
+    /* background: red; */
 }

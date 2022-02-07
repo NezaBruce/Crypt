@@ -12,35 +12,6 @@ function App() {
         <Navbar />
       </div> */}
       <Dashboard/>
-      hello
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

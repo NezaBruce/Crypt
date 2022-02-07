@@ -3,15 +3,43 @@ import { Route, Link,Routes } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
 import './App.css';
+import Dashboard from './min/Dashboard';
 // import { Typography } from '@mui/material';
 function App() {
   // what
   return (
     <div className="App">
-      <div className="navbar">
+      {/* <div className="navbar">
         <Navbar />
-      </div>
-      <div className="main">
+      </div> */}
+
+<Dashboard/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <div className="main">
         <Layout>
           <div className="routes">
             <Routes>
@@ -22,64 +50,6 @@ function App() {
               <Route exact path="/news" element={<News/>}/>
               <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
               <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-              <Route exact path="/news" element={<News />} />
-              
-              <Route exact path="/news" element={<News/>}/>
-
             </Routes>
           </div>
         </Layout>
@@ -94,7 +64,7 @@ function App() {
             <Link to="/news">News</Link>
            </Space>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

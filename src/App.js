@@ -10,7 +10,8 @@ function App() {
       <div className="navbar">
         <Navbar />
       </div>
-      <div className="main">
+      <Dashboard/>
+      {/* <div className="main">
         <Layout>
           <div className="routes">
             <Routes>
@@ -32,8 +33,8 @@ function App() {
             <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
            </Space>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 }

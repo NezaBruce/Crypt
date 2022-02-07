@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route, Link,Routes } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
-import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
-import './App.css';
+// import { Route, Link,Routes } from 'react-router-dom';
+// import { Layout, Typography, Space } from 'antd';
+// import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
+// import './App.css';
 import Dashboard from './min/Dashboard';
 // import { Typography } from '@mui/material';
 function App() {
@@ -12,6 +12,64 @@ function App() {
         <Navbar />
       </div> */}
       <Dashboard/>
+      hello
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* <div className="main">
         <Layout>
           <div className="routes">

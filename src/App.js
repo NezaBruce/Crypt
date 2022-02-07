@@ -3,13 +3,14 @@ import { Route, Link,Routes } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
 import './App.css';
+import Dashboard from './min/Dashboard';
 // import { Typography } from '@mui/material';
 function App() {
   return (
     <div className="App">
-      <div className="navbar">
+      {/* <div className="navbar">
         <Navbar />
-      </div>
+      </div> */}
       <Dashboard/>
       {/* <div className="main">
         <Layout>
@@ -34,7 +35,6 @@ function App() {
             <Link to="/news">News</Link>
            </Space>
         </div> */}
-      {/* </div> */}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
 
 import {useGetCryptosQuery } from '../Services/cryptoApi';
-import CryptoCurrencies from './crypyo';
+import CryptoCurrencies from './Cryptocurrencies';
 import News from './News'
 // import Loader from './Loader'
 

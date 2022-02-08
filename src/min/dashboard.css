@@ -24,12 +24,18 @@
 }
 .dash_main{
     display: flex;
- width: 80vh;   
+ width: 100%;  
+ flex-direction: row; 
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ margin: 12rem;
+ padding: 12rem;
 }
 .card{
     display: flex;
     flex-direction: column;
-position: absolute;
+/* position: absolute; */
 /* width: 116px; */
 width: 4rem;
 height: 160px;

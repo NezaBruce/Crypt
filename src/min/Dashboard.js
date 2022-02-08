@@ -8,8 +8,9 @@ const Dashboard = () => {
         <div className="dash_main">
           why main
           <Card title="Carl Bad 38 years" time="Feb 8 2022" />
-          {/* <Card/>
-                <Card/> */}
+          <Card title="Carl Bad 38 years" time="Feb 8 2022" />
+          {/* <Card />
+          <Card /> */}
         </div>
         <header className="dash_rightnav">rightmenu</header>
         {/* <div className="dash_footer">hi there</div> */}

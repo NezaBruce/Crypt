@@ -4,7 +4,6 @@ const Card = ({title,time}) => {
     return (
       <div className="card">
         <p className="title">
-          
           {title}
         </p>
         <h3 className="timestamp">{time}</h3>

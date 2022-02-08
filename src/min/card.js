@@ -1,17 +1,19 @@
 import React from 'react';
 
-const Card = () => {
+const Card = ({title,time}) => {
     return (
-        <div className="card">
+      <div className="card">
         <p className="title">
-          Carl Bad 38 years
+          
+          {title}
         </p>
-        <h3 className="timestamp">Feb 8 2022</h3>
+        <h3 className="timestamp">{time}</h3>
         <div className="cardicons">
           <div className="call">Phone</div>
           <div className="tik">TIk</div>
-     </div>
-  </div>);
+        </div>
+      </div>
+    );
 };
 
 export default Card;

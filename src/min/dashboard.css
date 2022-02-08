@@ -32,6 +32,16 @@
  margin: 12rem;
  padding: 12rem;
 }
+.dash_main{
+    display: flex;
+ width: 100%;  
+ flex-direction: row; 
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ margin: 12rem;
+ padding: 12rem;
+}
 .card{
     display: flex;
     flex-direction: column;

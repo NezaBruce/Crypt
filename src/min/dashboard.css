@@ -8,19 +8,31 @@
     grid-template-areas: 'dash_header','dash_leftmenu','dash_main';
     height: 100vh;
     background-color: #171728;
+    color:white;
 }
 .dash_footer{
     color: red;
 }
 
-
+.cardicons{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
 .card{
+    display: flex;
+    flex-direction: column;
 position: absolute;
-width: 96px;
+width: 116px;
 height: 160px;
 left: 496px;
 top: 64px;
-
+border-radius: 15px;
+/* background: ; */
+background: linear-gradient(270deg, #2C2C2C 13.42%, rgba(35, 35, 35, 0) 63.02%);
 }
 
 
@@ -36,7 +48,7 @@ top: 64px;
 /* } */ 
 .LeftMenu{
     position: absolute;
-    width:6.25rem;
+    width:4.25rem;
     height: 48.125rem;
      left: 0%;
     top: 0%;        

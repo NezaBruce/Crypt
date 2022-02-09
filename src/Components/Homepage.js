@@ -18,7 +18,6 @@ const Homepage = () => {
         <>
             <Title level={2} className="heading">Global Crypto Stats</Title>
             <Row gutter={[32, 32]}>
-                
                 <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
                 <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
                 <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
@@ -187,3 +186,8 @@ const Homepage = () => {
 }
 
 export default Homepage
+
+//whendashboardendupworkstart
+//whendashboardendupworkstart
+//whendashboardendupworkstart
+//whendashboardendupworkstart

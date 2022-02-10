@@ -78,6 +78,13 @@ const CryptoDetails = () => {
             {cryptoDetails.name} live price in US Dollar (USD). View value
             {cryptoDetails.name} live price in US Dollar (USD). View value
             {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
+            {cryptoDetails.name} live price in US Dollar (USD). View value
             statistics, market cap and supply.
           </p>
         </Col>

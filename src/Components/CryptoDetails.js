@@ -147,7 +147,7 @@ const CryptoDetails = () => {
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
-            {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
+            {cryptoDetails.name} live price in US Dollar (USD). View valueletmes  leep
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
             {cryptoDetails.name} live price in US Dollar (USD). View valueletmesleep
@@ -256,3 +256,8 @@ const CryptoDetails = () => {
 }
 
 export default CryptoDetails
+//lordineedyou
+//lordineedyou
+//lordineedyou
+//lordineedyou
+//lordineedyou

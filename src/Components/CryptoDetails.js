@@ -270,3 +270,8 @@ export default CryptoDetails
 //lordineedyou
 //lordineedyou
 //lordineedyou
+//lordineedyou
+//lordineedyou
+//lordineedyou
+//lordineedyou
+//lordineedyou

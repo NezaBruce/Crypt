@@ -345,3 +345,13 @@ export default CryptoDetails
 //lordineedyouthisnightwillgoeslightcomeba
 //lordineedyouthisnightwillgoeslightcomeba
 //lordineedyouthisnightwillgoeslightcomeba
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng
+//powercanchangeeverythihng

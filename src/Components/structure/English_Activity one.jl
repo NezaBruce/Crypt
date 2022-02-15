@@ -15,6 +15,7 @@ B
 tax (ks)
 thing (Q)
 schedule(S)
+schedule(S)
 school(sk)
 are(a:r)
 though(ou)

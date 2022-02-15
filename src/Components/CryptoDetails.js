@@ -385,6 +385,14 @@ export default CryptoDetails
 //powercanchangeeverythihng 
 //powercanchangeeverythihng 
 //powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
+//powercanchangeeverythihng 
 //powercanchangeeverythihng
 //powercanchangeeverythihng
 //powercanchangeeverythihng

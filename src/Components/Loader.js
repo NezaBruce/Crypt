@@ -15,6 +15,12 @@ const Loader = () => {
             //letspinloaderforapiwaiting
             //letspinloaderforapiwaiting
             //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
+            //letspinloaderforapiwaiting
         </div>
     )
 }

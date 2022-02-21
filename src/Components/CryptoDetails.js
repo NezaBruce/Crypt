@@ -1,40 +1,27 @@
 //Define a stored proceudre tosdispale orders shipped betweetwo dates passed to the procedure as argument s
-
 //ex >CALL shippedOrders('2021-10',2021-11-11);
 //
 //
-
-
-
-
-
-
 import React, { useState } from 'react'
 // import HTMLReactParser from 'html-react-parser'
 import { useParams } from 'react-router'
 import millify from 'millify';
 import { Col, Row, Typography, Select } from 'antd';
 import { MoneyCollectOutlined, DollarCircleOutlined, FundOutlined, ExclamationCircleFilled, StopOutlined, TrophyOutlined, CheckOutlined, NumberOutlined, ThunderboltFilled } from '@ant-design/icons';
-
 import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } from '../Services/cryptoApi';
 // import Loader from './Loader'
 // import LineChart from './LineChart'
-
 const { Title, Text } = Typography;
 const { Option } = Select;
-
 const CryptoDetails = () => {
-
     const { coinId } = useParams();
     const { timeperiod, setTimeperiod } = useState('7d');
     const { data, isFetching } = useGetCryptoDetailsQuery(coinId);
     const { data: coinHistory } = useGetCryptoHistoryQuery({ coinId, timeperiod });
     const cryptoDetails = data?.data?.coin;
-
     if (isFetching) {
         return "Loading...";
     };
-
     const time = ['3h', '24h', '7d', '30d', '1y', '3m', '3y', '5y'];
     const stats = [
         { title: "Price to USD ", value: `$ ${cryptoDetails.price && millify(cryptoDetails.price)}`, icon: <DollarCircleOutlined /> },
@@ -49,7 +36,6 @@ const CryptoDetails = () => {
         { title: "Approved Supply ", value: cryptoDetails.approvedSupply ?<CheckOutlined/>:<StopOutlined/>, icon: <ExclamationCircleFilled /> },
         { title: "Total Supply ", value: `$ ${cryptoDetails.totalSupply}`, icon: <ExclamationCircleFilled /> },
         { title: "Circulating Supply  ", value: `$ ${millify(cryptoDetails.circulatingSupply)}`, icon: <TrophyOutlined /> },
-
     ];
     return (
       <div className="coin-detail-container">

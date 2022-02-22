@@ -1,47 +1,19 @@
 import React from 'react';
-// import { Route, Link,Routes } from 'react-router-dom';
-// import { Layout, Typography, Space } from 'antd';
-// import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
-// import './App.css';
-import Dashboard from './min/Dashboard';
-// import { Typography } from '@mui/material';
+import { Route, Link,Routes } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
+import {Exchanges,Homepage,News,Cryptocurrencies,CryptoDetails,Navbar} from './Components'
+import './App.css';
+// import Dashboard from './min/Dashboard';
+// import { Typography }  from '@mui/material';
 function App() {
   return (
     <div className="App">
-      {/* <div className="navbar">
+      <div className="navbar">
         <Navbar />
-      </div> */}
-      <Dashboard/>
+      </div>
+      {/* <Dashboard/> */}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <div className="main">
+      <div className="main">
         <Layout>
           <div className="routes">
             <Routes>
@@ -63,9 +35,22 @@ function App() {
             <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
            </Space>
-        </div> */}
+        </div>
     </div>
-  );
+  </div>
+      );
 }
+// overlay_circle{
+//   z - indeex
+//   position absolute
+// }
+// overlay_circle{
+//   z - indeex
+//   position absolute
+// }
+// overlay_circle{
+//   z - indeex
+//   position absolute
+// }
 
 export default App;
